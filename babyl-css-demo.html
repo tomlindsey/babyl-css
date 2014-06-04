@@ -5,8 +5,18 @@
     <link rel="stylesheet" href="babyl-css-demo.css"/>
     <title></title>
   </head>
-  <body>
-    <h1>For any width that is a multiple of 60 <span style='color:red;margin-left:2em;font-size:50%'>red items are multiples of 60</span></h1>
+  <body style="width:1000px">
+    <h1>For any width that is a multiple of 60</h1>
+    <p>
+      <span style='color:red;'>Red</span> items are multiples of 60 and may be subdivided using any of the
+      ways outlined below -- there are might be others, I did not try to make an exhaustive list; I am just
+      playing around.
+    </p>
+    <p>
+      Example: Let's say a page is 960px wide so the body's style is set using style: b960_c1.  The developer
+      would like this page divided into equal regions, each 480 pixels wide so applies style: b960_c2 to the
+      page elements.  The developer could then carve the 480 pixel spaces up by using any of the styles: b480_c*
+    </p>
 
     <h2>unique columns (assuming 960px width)</h2>
     <ul><li class="b960_c6"    style="text-align:left;">c6 160</li></ul>
@@ -20,7 +30,7 @@
     <ul><li class="b960_c6x"   style="text-align:left;">c6x 800</li></ul>
     <ul><li class="b960_c1 x"  style="text-align:left;">c1 960</li></ul>
 
-    <h2>equal column size arrangements</h2>
+    <h2>equal column width arrangements</h2>
     <ul>
       <li class="b960_c6">c6</li><li class="b960_c6">c6</li><li class="b960_c6">c6</li><li class="b960_c6">c6</li><li class="b960_c6">c6</li><li class="b960_c6">c6</li></ul>
     <ul>
@@ -50,7 +60,7 @@
       <li class="b960_c3">c3</li><li class="b960_c3x">c3x</li>
     </ul>
     <ul>
-      <li class="b960_c2 x">c2</li><li class="b960_c2 x">c2x</li>
+      <li class="b960_c2 x">c2</li><li class="b960_c2 x">c2</li>
     </ul>
 
     <h2>3 column arrangements</h2>
@@ -63,7 +73,6 @@
     <ul>
       <li class="b960_c3x">c3x</li><li class="b960_c6">c6</li><li class="b960_c6">c6</li>
     </ul>
-
 
     <h2>4 column arrangements</h2>
     <ul>
