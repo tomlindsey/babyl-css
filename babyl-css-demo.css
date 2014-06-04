@@ -1,0 +1,15 @@
+ul { list-style:none; }
+
+li {
+     border-color:black;
+     border-style:dotted;
+     border-width:1px;
+     display:inline-block;
+     height:2em;
+     text-align:center;
+}
+
+li.x {
+     border-color:red;
+     color:red;
+}
